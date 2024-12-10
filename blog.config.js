@@ -17,12 +17,12 @@ const BLOG = {
     process.env.NEXT_PUBLIC_IS_TAG_COLOR_DISTINGUISHED === 'true' || true, // 对于名称相同的tag是否区分tag的颜色
 
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '我是老丁，爱科技，爱分享,欢迎来到我的博客🎉',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || '我是老丁，爱科技，爱分享,欢迎来到我的博客',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '老丁白话', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 爱科技，爱分享，欢迎关注 // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '爱科技，爱分享，欢迎关注' // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://241201.xyz', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
